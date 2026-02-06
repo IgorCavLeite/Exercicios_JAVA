@@ -10,5 +10,7 @@ public class Ola {
 
         System.out.println("O seu nome é: " + nome);
 
+        scan.close();
+
     }
 }
