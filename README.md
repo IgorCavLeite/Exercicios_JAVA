@@ -1,2 +1,2 @@
-# Exercicios_JAVA
-Exercícios em JAVA que realizei para praticar.
+# Olá!
+Esse repositório foi criado durante  uma aula ao vivo do professor Guanabara. E, para evitar a fadiga vou usar esse mesmo repositório para colocar todos os meus exercícios práticos em JAVA que realizei e irei realizar em todo o meu aprendizado dessa maravilhosa linguagem de programação.
