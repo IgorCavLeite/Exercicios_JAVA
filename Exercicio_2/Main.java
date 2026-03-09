@@ -26,7 +26,6 @@ public class Main {
             System.out.println("Você foi reprovado!");
         }
 
-
-
+        scan.close();
     }
 }
