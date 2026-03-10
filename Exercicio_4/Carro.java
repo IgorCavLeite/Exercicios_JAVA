@@ -7,7 +7,7 @@ public class Carro{
         this.modelo = modelo;
     }
 
-    // Essa "public class Motor " é uma classe inner, isso quer dizer que é uma classe interna. As classes internas são útil para o agrupamento lógico. Pois quando se uma classe é útil para apenas 1 outra, não faz sentido deixar ela solta no código.
+    // Essa "public class Motor " é uma classe inner, isso quer dizer que é uma classe interna. As classes internas são útil para o agrupamento lógico. Pois quando uma classe é útil para apenas uma outra, não faz sentido deixar ela solta no código.
     public class Motor{
 
         public void diagnostico(){
@@ -16,6 +16,7 @@ public class Carro{
 
     }
 
+    // Essa é uma class interna static. Ela não tem acesso aos atributos da class carro.
     public static class Pneu{
         private int pressao;
 
