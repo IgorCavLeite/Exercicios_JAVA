@@ -38,7 +38,7 @@ public class Main {
         Main.Analista analista = new Main().new Analista();
 
         String normalizada = analista.Normalizacao(fraseOriginal);
-        int totalCaracteres = analista.contarCaracteres(fraseOriginal);
+        int totalCaracteres = analista.contarCaracteres(fraseOriginal);   
         String primeira = analista.extrairPrimeiraPalavra(fraseOriginal);
         String substituir = analista.substituirEspacos(fraseOriginal);
 
