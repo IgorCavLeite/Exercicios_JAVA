@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Digite a descrição da ocorrência.");
         String fraseOriginal = scan.nextLine();
 
-        Main.Analista analista = new Main().new Analista();
+        Main.Analista analista = new Main().new Analista(); // Instância da class Analista
 
         String normalizada = analista.Normalizacao(fraseOriginal);
         int totalCaracteres = analista.contarCaracteres(fraseOriginal);   
