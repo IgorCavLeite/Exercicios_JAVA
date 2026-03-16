@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Digite o CPF: ");
         String cpf = scan.nextLine();
 
-        Seguranca seguranca = new Seguranca(email, cpf);
+        Seguranca seguranca = new Seguranca();
         Seguranca.Mascarador m = seguranca.new Mascarador();
 
         System.out.println("\n--- DADOS PROTEGIDOS ---");
