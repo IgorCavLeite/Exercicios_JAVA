@@ -34,7 +34,19 @@ class Personagem {
         }
     }
 
+    public void emitirSomDeBatalha(){
+        System.out.println("O personagem está se preparando para a batalha!");
+    }
+
     public int getVida() {
         return this.vida;
+    }
+
+    public void setNome(String novoNome){
+        if(!novoNome.isEmpty()){
+            this.nome = novoNome;
+        } else {
+            System.out.println("O nome inválido!");
+        }
     }
 }
