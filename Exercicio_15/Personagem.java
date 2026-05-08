@@ -38,6 +38,10 @@ class Personagem {
         System.out.println("O personagem está se preparando para a batalha!");
     }
 
+    void atacar(){
+        System.out.println("O personagem realiza um ataque básico!");
+    }
+
     public int getVida() {
         return this.vida;
     }

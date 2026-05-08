@@ -21,6 +21,12 @@ public class Guerreiro extends Personagem {
         }
     }
 
+    @Override
+    public void atacar(){
+        super.atacar();
+        System.out.println("O guerreiro desfere um golpe de escudo adicional.");
+    }
+
     public void setArmadura(int armaduraNova) {
         if (armaduraNova < 0) {
             System.out.println("Armadura não pode ser negativa!");
